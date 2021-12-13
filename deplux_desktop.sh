@@ -142,6 +142,10 @@ sudo apt install htop -y
 # Message of the day TODO
 
 
+# Rename home falder to remove capitalized letters TODO
+
+
+
 ####################################### APPS #######################################
 
 # Brave install
