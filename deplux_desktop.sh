@@ -97,8 +97,7 @@ echo "Done installing Speedtest
 
 # Exa Install
 echo "Installing Exa..."
-wget -q -P ~/downloads   http://archive.ubuntu.com/ubuntu/pool/universe/r/rust-exa/exa_0.9.0-4_amd64.deb
-sudo apt-get install ~/downloads/exa_0.9.0-4_amd64.deb -qq > /dev/null
+sudo apt-get install exa -qq > /dev/null
 
 echo "alias ls='exa -l --color=always --group-directories-first'
 alias la='exa -al --color=always --group-directories-first'
@@ -158,4 +157,3 @@ ________________________________________________________________________________
 "
 
 exit 0
-
